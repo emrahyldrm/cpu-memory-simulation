@@ -4,12 +4,11 @@
 using namespace std;
 
 #define FILE_NAME_INDEX 1
-#define DEBUG_INDEX     2
-#define MODE_INDEX      3
+#define MODE_INDEX      2
 
 int main(int argc, char *argv[])
 {
-    if(argc < 4 )
+    if(argc < 3 )
     {
         cout << "Too few arguments" << endl;
         exit(-1);
